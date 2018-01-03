@@ -107,7 +107,6 @@ If you want to find me again, \njust type in 'go to init'")
         text=update.message.text
         return text.lower()=='go to init'
 
-
 star_bot=Game()
 machine=Machine(model=star_bot,
                 states=states,
@@ -155,7 +154,6 @@ def webhook_handler():
         star_bot.q3_loop(update)
         if update.message.text=="go to init":
             star_bot.back(update)
-
     return 'ok'
 
 
@@ -175,5 +173,4 @@ def show_fsm():
 if __name__ == '__main__':
     _set_webhook()
     app.run(port=5000)
-
 
