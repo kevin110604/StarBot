@@ -15,11 +15,11 @@ And then, just run it!
 ## How to Use
 
 On your telegram bot, type "go to init", and then you can see there are three mode...
-**1. mockingjay:**
+1. **mockingjay:**
      It will echo the words you just said.
-**2. image:**
+2. **image:**
      Type in "slut","scared" or "goose" and it will send you a funny picture.
-**3. predict:**
+3. **predict:**
      You can predict your "future" or "final grade".
 
 Whenever you want to use other modes, please type in "go to init" first.
